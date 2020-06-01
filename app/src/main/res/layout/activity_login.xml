@@ -60,7 +60,8 @@
             android:layout_below="@+id/hahha"
             android:background="@color/colorPrimaryDark"
             android:textColor="@android:color/black"
-            android:onClick="Registrasi"/>
+            android:onClick="Registrasi"
+            tools:ignore="OnClick" />
 
     </LinearLayout>
 
