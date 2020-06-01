@@ -18,11 +18,19 @@
         android:orientation="vertical"
         android:padding="16dp" >
 
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="150dp"
+            android:layout_width="310dp"
+            android:layout_height="139dp"
+            app:srcCompat="@drawable/lilo" />
+
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="130dp"
             android:inputType="textEmailAddress"
             android:hint="Email"
             app:met_floatingLabel="normal" />
