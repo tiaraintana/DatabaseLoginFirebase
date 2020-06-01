@@ -11,10 +11,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HALLO WORD"
+        android:text="WELCOME TO THIS PAGE"
         android:textSize="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         tools:layout_editor_absoluteX="177dp"
         tools:layout_editor_absoluteY="278dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iconpetunjuk" />
+
 </LinearLayout>
